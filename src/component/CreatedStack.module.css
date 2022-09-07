@@ -1,0 +1,140 @@
+.each-stack{
+    width: 18rem;
+    height: 14rem;
+    /* height: 216px; */
+    background-color: #ffffff;
+    box-shadow: rgba(98, 98, 98, 0.35) 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stack_img{
+    height: 5rem;
+    width: 5rem;
+    clip-path: circle(50%);
+    object-fit: cover;
+    object-position: center;
+}
+
+.admin-dashboard{
+    padding-left: 1rem;
+    padding-bottom: 1.9rem;
+}
+
+.dashboard {
+    color: #03435F;
+}
+.create-stack {
+    /* width: 140px;
+    height: 40px;
+    margin: 20px; */
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 2rem 2rem 2rem;
+    font-size: 1.1rem;
+    background: #14A800;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.image-container{
+    width: 60rem;
+    margin: 0 auto 0 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/*  New line */
+.stack-form {
+    position: absolute;
+    /* width: 619px;
+    min-height: 289px; */
+    /* width: 50vw;
+    height: 30vh; */
+    top: 20%;
+   right: 20px;
+    background: #ffffff;
+    box-shadow: 5px 10px 180px 100rem rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    padding: 40px 45px;
+    margin-left: 400px;
+    margin-right: 400px;
+    width: 600px;  
+}
+@media screen and (max-width: 580px) {
+    .stack-form{
+        margin-left: 10px;
+        margin-right: 40px;
+       width: 17rem;
+    }
+  }
+.stack-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #03435F;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 0.4rem;
+}
+.stack-header button{ 
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.stack-horizon {
+    width: 100%;
+    /* height: 0px; */
+    border: 0.1px thin #D9D9D9
+}
+.stack-input {
+    width: 100%;
+    border: 1px solid rgba(33, 51, 79, 0.15);
+    height: 37px;
+    padding: 0.8rem;
+}
+.stack-label {
+    display: inline-block;
+    width: 100%;
+    color: #03435F;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.stack-button {
+    width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
+    box-sizing: border-box;
+    height: 48px;
+    background: #14A800;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+.stack-button:hover {
+    background: #17c600;
+}
+.dash-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 82%;
+    margin: 10px 100px;
+    align-self: center;
+}
